@@ -33,9 +33,11 @@ It is common to hear vaguely defined phrases such as "political tension", "divis
 All Data were formatted into two columns - text and analysis dimension.
 
 ***Text Preprocessing***
+
 For text processing, documents were converted into lowercase, stripped of all non-alpha characters, and tokenized by word. After evaluating training models, I decided to leave in stop words and not stem the data to retain syntactical nuances in sentence structure.
 
 ***Analysis Dimension Preprocessing***
+
 Political Ideology: Conservative = -1, Neutral = 0, Liberal = 1
 Sentiment: Negative = 0, Positive = 1
 Subjectivity: Objective = 0, Subjective = 1
@@ -55,7 +57,7 @@ The model trained on the sentiment dataset produced training and validation accu
 
 Accuracy             |  Log Loss
 :-------------------------:|:-------------------------:
-![](../data/images/sent_acc.png)  |  ![](../data/images/sent_loss.png)
+![](./data/images/sent_acc.png)  |  ![](./data/images/sent_loss.png)
 
 
 ***Subjectivity***
@@ -64,7 +66,7 @@ The model trained on the subjectivity dataset produced training and validation a
 
 Accuracy             |  Log Loss
 :-------------------------:|:-------------------------:
-![](../data/images/subj_acc.png)  |  ![](../data/images/subj_loss.png)
+![](./data/images/subj_acc.png)  |  ![](./data/images/subj_loss.png)
 
 
 ## Results
@@ -75,7 +77,7 @@ Inaugural speeches were ommitted from the results graphs as they showed no trend
 
 When analyzing the changes in positivity (sentiment dimension) over time, no discernable trend becomes visible. There seems to be a decline in positivity with regards to State of the Union Speeches, but the high variability in that metric would lead to it not being a very strong discussion point. Interestingly, the Supreme Court decisions show a relatively stable, slightly-negative sentiment.
 
-![](../data/images/sent_ovr.png)
+![](./data/images/sent_ovr.png)
 
 
 
@@ -83,12 +85,12 @@ When analyzing the changes in positivity (sentiment dimension) over time, no dis
 
 When analyzing changes in subjectivity over time, a more stable, positive trend is seen in both the State of the Union Speeches and Supreme Court decisions. In fact, a large spike in subjectivity is observed in speeches that occurred after the world wars. This will be discussed further below when analyzing the composition of majority/minority decisions in the Supreme Court. Though the supreme court did see an increase in subjective tone, no single document scored above 0.4 on the objective-subjective scale - exemplifying the objective nature of legal decision making as compared to the subjective tones taken by politicians. 
 
-![](../data/images/subj_ovr.png)
+![](./data/images/subj_ovr.png)
 
 
 As mentioned above, the subjective tone in US government documents saw a discernible increase in the post-war era, demonstrating the increasing polarization that is the basis of the problem stated in the introduction. This is further exemplified when analyzing the change in majority/minority composition. Around 1950, the makeup of the Supreme Court transitioned from primarily one party to a more balanced makeup. It seems that the country required a coordinated response to opposition forces, and has since divided itself internally.
 
-![](../data/images/court_other_data.png)
+![](./data/images/court_other_data.png)
 
 
 
