@@ -1,7 +1,0 @@
-Commercial fishing data     	https://foss.nmfs.noaa.gov/apexfoss/
-ITIS taxonomy hierarchy		https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1082638#null
-kelp forest data		http://dmoserv3.bco-dmo.org/jg/info/BCO-DMO/Kelp_Forest_Resilience/CommunitySurveys_Density%7Bdir=dmoserv3.whoi.edu/jg/dir/BCO-DMO/Kelp_Forest_Resilience/,data=dmoserv3.bco-dmo.org:80/jg/serv/BCO-DMO/Kelp_Forest_Resilience/communitySurveys_density.html0%7D?#processing
-article 1 (April 2018)		https://www.newsdeeply.com/oceans/articles/2018/04/09/california-mobilizes-to-save-invaluable-kelp-will-efforts-be-in-vain
-kelp fores species		https://seanet.stanford.edu/
-eat urchins			https://www.npr.org/sections/thesalt/2019/09/09/756929657/saving-californias-kelp-forest-may-depend-on-eating-purple-sea-urchins
-cal science center		https://californiasciencecenter.org/exhibits/ecosystems/forest-zone/kelp-forest/kelp-forest-restoration
