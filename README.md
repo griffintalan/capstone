@@ -2,7 +2,7 @@
 ***Griffin Talan***
 
 ## Introduction
-It is common to hear vaguely defined phrases such as "political tension", "divisive rhetoric", "identity politics", and many others when speaking about United States government affairs. What do we mean when confidently speak in terms like this? We all have a sense that things are changing quickly and causing turmoil in our society, but we don't have metrics to understand the underpinning causal factors associated with them. In this project, I aim to analyze US historic documents using natural language processing to see if there are measurable changes in three different dimensions; political ideology, sentimental tone, and speaker subjectivity.
+It is common to hear vaguely defined phrases such as "political tension", "divisive rhetoric", "identity politics", and many others when speaking about United States government affairs. What do we mean when confidently speak in terms like this? We all have a sense that things are changing quickly and causing turmoil in our society, but we don't have metrics to understand the causal factors associated with them. In this project, I aim to analyze US historic documents using a natural language processing recurrent neural network to see if there are measurable changes in three different dimensions; political ideology, sentimental tone, and speaker subjectivity.
 
 ## Data Collection
 
@@ -49,7 +49,7 @@ In order to account for the differing document lengths and nuanced syntactical i
 
 ***Political Ideology***
 
-Though the data was human labeled, I was unable to optimize a model that reproducibly scored higher than a baseline of predicting a single outcome. This analysis dimension was removed from the experiment.
+Though the data was human labeled, I was unable to optimize a model that reproducibly scored higher than a baseline of predicting a single outcome. This analysis dimension was removed from the analysis.
 
 ***Sentiment***
 
